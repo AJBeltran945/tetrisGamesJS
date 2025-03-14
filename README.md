@@ -47,7 +47,7 @@ This is a classic Tetris game built using JavaScript, HTML, and CSS. The game fo
 
 ## Screenshots
 
-*(Add images of the game in action here)*
+![screenshot](images/imimageOfTetris.pnh)
 
 ## License
 
