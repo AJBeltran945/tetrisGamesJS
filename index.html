@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="title">Tetris</h1>
+
+    <div id="stats">
+        <div>Points: <span id="points">0</span></div>
+        <div>Level: <span id="level">0</span></div>
+    </div>
+
+    <div id="gameContainer">
+        <div id="holdPieceContainer">
+            <h3>Hold Piece:</h3>
+            <canvas id="holdPiece" width="150" height="150"></canvas>
+        </div>
+        
+        <div id="gameArea">
+            <canvas id="tetris" width="300" height="600"></canvas>
+            <div id="game-over">Game Over!</div>
+        </div>
+
+        <div id="nextPieceContainer">
+            <h3>Next Piece:</h3>
+            <canvas id="nextPiece" width="150" height="150"></canvas>
+        </div>
+    </div>
+
+    <button id="playButton">Play</button>
+
+</body>
+</html>
