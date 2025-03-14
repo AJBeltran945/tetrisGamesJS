@@ -25,7 +25,7 @@ This is a classic Tetris game built using JavaScript, HTML, and CSS. The game fo
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/tetris-game.git
+   git clone https://github.com/AJBeltran945/tetrisGamesJS
    ```
 2. Navigate to the project folder:
    ```sh
